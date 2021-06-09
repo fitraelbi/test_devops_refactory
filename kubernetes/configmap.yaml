@@ -1,0 +1,7 @@
+kind: ConfigMap 
+apiVersion: v1 
+metadata:
+  name: pingpong-configmap 
+data:
+  PORT: '3000'
+  HOST: 'localhost'

@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+    my-backend2:
+        image: "pingpongapps"
+        ports:
+          - '3000:3000'
+        environment:
+          HOST: localhost
+          PORT: 3000
